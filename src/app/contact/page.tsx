@@ -67,6 +67,7 @@ const teamMembers = [
 
 export default function ContactPage() {
   const [isMobile, setIsMobile] = useState(false)
+console.log("checkeng log 1");
 
   // Check if mobile on client side
   useEffect(() => {
