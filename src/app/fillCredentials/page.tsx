@@ -14,6 +14,7 @@ function Page() {
     password: "",
     collegeName: "",
   })
+console.log("formData",formData);
 
   // Load email from localStorage on component mount
   useEffect(() => {
