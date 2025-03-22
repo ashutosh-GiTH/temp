@@ -14,6 +14,7 @@ function Page() {
     password: "",
     collegeName: "",
   })
+  console.log("hello this is the main branch");
 
   // Load email from localStorage on component mount
   useEffect(() => {
